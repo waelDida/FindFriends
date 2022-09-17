@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="230dp">
+    <androidx.cardview.widget.CardView
+        android:id="@+id/user_cardview"
+        android:layout_width="wrap_content"
+        android:layout_height="230dp"
+        android:layout_gravity="center"
+        app:cardElevation="3dp"
+        android:layout_margin="4dp"
+        app:cardUseCompatPadding="true"
+        app:cardCornerRadius="10dp">
+        <RelativeLayout
+            android:layout_width="165dp"
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/user_image"
+                android:layout_width="165dp"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:contentDescription="@null"/>
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="10dp"
+                >
+                <TextView
+                    android:id="@+id/user_name_age"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textSize="17sp"
+                    android:textColor="@color/white"
+                    android:layout_marginStart="5dp"
+                    android:maxLength="11"
+                    android:layout_centerVertical="true"
+                    android:fontFamily="@font/roboto_medium"
+
+                    />
+            </RelativeLayout>
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

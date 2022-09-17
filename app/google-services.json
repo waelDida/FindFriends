@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "378955245800",
+    "firebase_url": "https://friendlychat-115c3.firebaseio.com",
+    "project_id": "friendlychat-115c3",
+    "storage_bucket": "friendlychat-115c3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:378955245800:android:776038020ee11584",
+        "android_client_info": {
+          "package_name": "com.findfriends.mycompany.findfriends"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "378955245800-jafov7hkg7vc2hg6o619helhhjh3tctj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_xjUSy4BcdcMS4Unq5CnOXL7FYYmZhb4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "378955245800-jafov7hkg7vc2hg6o619helhhjh3tctj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

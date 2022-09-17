@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/users_recycler"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="5dp"
+        android:paddingBottom="70dp"
+        android:clipToPadding="false"
+        android:nestedScrollingEnabled="false"
+        />
+    <LinearLayout
+        android:id="@+id/no_internet_home_fragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        android:visibility="invisible">
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/connection_icon"
+            android:layout_gravity="center"
+            android:contentDescription="@null" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/no_internet"
+            android:layout_marginTop="15dp"
+            android:textSize="17sp"
+            android:textColor="#616161"
+            />
+        <Button
+            android:id="@+id/home_fragment_refresh"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/refresh"
+            android:elevation="3dp"/>
+    </LinearLayout>
+    <ProgressBar
+        android:id="@+id/home_fragment_progress"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_centerInParent="true"
+        android:visibility="invisible"/>
+    <RelativeLayout
+        android:id="@+id/no_one_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:layout_centerInParent="true">
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/exclamation_mark"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/exclamation_mark"
+            android:contentDescription="@null" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/no_one_found"
+            android:textSize="17sp"
+            android:layout_marginTop="15sp"
+            android:layout_below="@id/exclamation_mark"
+            />
+    </RelativeLayout>
+</RelativeLayout>

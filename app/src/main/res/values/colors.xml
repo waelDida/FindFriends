@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#fafafa</color>
+    <color name="colorPrimaryDark">#c7c7c7</color>
+    <color name="colorPrimaryMessage">#eff2f3</color>
+    <color name="colorAccent">#f24a37</color>
+
+    <color name="white">#ffffff</color>
+    <color name="white2">#e6ecf4</color>
+    <color name="black">#000000</color>
+
+    <color name="deleteColor">#E57373</color>
+    <color name="loadImageColor">#f5f5f5</color>
+    <color name="loadImageColorTrans">#99f5f5f5</color>
+
+    <color name="solidCircle">#80FFFFFF</color>
+    <color name="circleBorder">#30FFFFFF</color>
+    <color name="dark_grey">#424242</color>
+
+    <color name="greyTitle">#616161</color>
+    <color name="buttons_color">#f24a37</color>
+
+    <color name ="pressed">#99f24a37</color>
+    <color name ="focused">#99f24a37</color>
+    <color name="defaultColor">#FFFFFF</color>
+
+    <color name="facebookColor">#4d6fa9</color>
+    <color name="validSubColor">#0277bd</color>
+    <color name="blue_face">#3a75a3</color>
+    <color name="expireSubColor">#d32f2f</color>
+
+    <color name="remoteMessageColor">#e0e0e0</color>
+    <color name="currentMessageColor">#3975d6</color>
+    <color name="senderTextColor">#424242</color>
+</resources>

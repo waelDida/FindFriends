@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/phone_verification_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:padding="12dp"
+    tools:context=".activities.PhoneVerification"
+    >
+
+    <LinearLayout
+        android:id="@+id/phone_number_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/phone_edit_border"
+        android:layout_centerInParent="true">
+        <com.hbb20.CountryCodePicker
+            android:id="@+id/country_code_picker"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:gravity="center">
+        </com.hbb20.CountryCodePicker>
+        <EditText
+            android:id="@+id/phone_number_edit"
+            android:layout_width="250dp"
+            android:layout_height="48dp"
+            android:background="@color/white"
+            android:hint="@string/phone_number"
+            android:fontFamily="@font/roboto_regular"
+            android:textColor="@color/greyTitle"
+            android:inputType="phone"
+            android:layout_gravity="center"
+            android:textSize="18sp"/>
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/send_phone_number_button"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="@string/send"
+        android:background="@drawable/button_continue_style"
+        android:textColor="@color/white"
+        android:layout_below="@id/phone_number_layout"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/roboto_medium"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>

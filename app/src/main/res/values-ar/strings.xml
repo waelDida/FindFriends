@@ -1,0 +1,94 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">NearMe</string>
+
+
+    <!-- INTERSTITIAL ADS -->
+    <string name="interstitila_id_test">ca-app-pub-3940256099942544/8691691433</string>
+
+    <!-- FACEBOOK PURPOSE -->
+    <string name="facebook_application_id" translatable="false">YOUR_FACEBOOK_APP_ID</string>
+    <string name="facebook_login_protocol_scheme" translatable="false" tools:ignore="UnusedResources">fbYOUR_FACEBOOK_APP_ID</string>
+
+
+    <string name="chat">دردشة</string>
+    <string name="profile">بروفايل</string>
+    <string name="say_hello">قل مرحبا</string>
+    <string name="search">بحث</string>
+
+    <string name="unknown_erro">Unknow Error</string>
+
+    <string name="popup_title_permission_files_access">This app needs your permission !</string>
+    <string name="popup_no_internet">Please check your internet connection</string>
+    <string name="error_occured">Error occurred</string>
+
+
+    <string name="match_text">You matched with</string>
+    <string name="matched_text">It\'s a Match</string>
+    <string name="keep_searching">Keep searching</string>
+    <string name="continue_text">continue</string>
+    <string name="demo_min_label"> </string>
+    <string name="demo_max_label"> </string>
+    <string name="licenses_text">تراخيص</string>
+    <string name="privacy_policy_text">سياسة الخصوصية</string>
+    <string name="terms_of_service_text">شروط الخدمة</string>
+    <string name="sign_out_text">خروج</string>
+    <string name="delete_account_text">حذف الحساب ؟</string>
+    <string name="mark">-</string>
+    <string name="age_range_text">الفئة العمرية</string>
+    <string name="women_text">نساء</string>
+    <string name="men_text">رجال</string>
+    <string name="show_me_text">أرني</string>
+    <string name="terms_policy_link">By signing in, you agree with our <a href="https://www.google.com" target="_top">Terms of service</a> and Privacy Policy</string>
+    <string name="delete_text_confirmation">Are you sure you want to delete your account ?</string>
+    <string name="yes_text">Yes</string>
+    <string name="no_text">No</string>
+    <string name="report_text">Report User ?</string>
+    <string name="report_text_confirmation">Are you sure you want to report this user ?</string>
+    <string name="unmatch_text">Unmatch ?</string>
+    <string name="unmatch_text_confirmation">Are you sure to unmatch with this user ?</string>
+    <string name="delete_account">حذف الحساب</string>
+    <string name="share_text">شارك</string>
+    <string name="no_one_found">There is no one new around you</string>
+    <string name="chat_instruction_1">Tap on a new match above</string>
+    <string name="chat_instruction_2">to send message</string>
+    <string name="likes">Likes</string>
+    <string name="no_matches_found">No Matches Found</string>
+    <string name="settings">الإعدادات</string>
+    <string name="birthday">Birthday</string>
+    <string name="gender">Gender</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="save">Save</string>
+    <string name="about_me">عني</string>
+    <string name="tell_something">Tell something about you, your next travel, your interests ...</string>
+    <string name="first_promo_text">Discover new and interesting people nearby</string>
+    <string name="second_promo_text">Meet up and have fun together</string>
+    <string name="third_promo_text">Only people you\'ve matched with can message you</string>
+    <string name="credit">ائتمان</string>
+    <string name="new_matches">New Matches</string>
+    <string name="messages">messages</string>
+    <string name="no_internet">No internet connection</string>
+    <string name="ads_settings">Ads Settings</string>
+    <string name="send_message">send message</string>
+    <string name="type_a_message">Type a message</string>
+    <string name="first_name">first_name</string>
+    <string name="login">login</string>
+    <string name="resend">resend</string>
+    <string name="please_check_your_phone">Please check your phone</string>
+    <string name="save_text_phone">You\'ve received a message from us with your passcode</string>
+    <string name="sms_code">SMS Code</string>
+    <string name="didn_t_receive_code">Didn\'t receive code ?</string>
+    <string name="send">send</string>
+    <string name="phone_number">phone number</string>
+    <string name="report">report</string>
+    <string name="unmatch">unmatch</string>
+    <string name="login_with_facebook">login with facebook</string>
+    <string name="login_with_phone_number">login with phone number</string>
+    <string name="no_new__like">No one new liked you</string>
+    <string name="maximum_distance">Maximum Distance</string>
+    <string name="show_my_age">Show my age</string>
+    <string name="less_than_km">أقل من 1 كم</string>
+    <string name="km_away">كم بعيدا</string>
+
+
+</resources>

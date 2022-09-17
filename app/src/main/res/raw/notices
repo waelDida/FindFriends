@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<notices>
+    <notice>
+        <name>Google Play Services</name>
+        <url>https://developers.google.com/android/guides/overview</url>
+        <copyright>The Android Open Source Project</copyright>
+        <license>Apache Software License 2.0</license>
+    </notice>
+    <notice>
+        <name>Firebase Android SDK</name>
+        <url>https://github.com/firebase/firebase-android-sdk</url>
+        <license>Apache Software License 2.0</license>
+    </notice>
+    <notice>
+        <name>Facebook Android SDK</name>
+        <url>https://github.com/facebook/facebook-android-sdk</url>
+        <copyright>Facebook, Inc.</copyright>
+        <license>Apache Software License 2.0</license>
+    </notice>
+    <notice>
+        <name>Glide</name>
+        <url>https://github.com/bumptech/glide</url>
+        <copyright>Bumptech</copyright>
+        <license>Apache Software License 2.0</license>
+    </notice>
+    <notice>
+        <name>EasyPermission</name>
+        <url>https://github.com/googlesamples/easypermissions</url>
+        <copyright>Copyright 2017 Google</copyright>
+        <license>Apache Software License 2.0</license>
+    </notice>
+    <notice>
+        <name>CircleIndicator</name>
+        <url>https://github.com/ongakuer/CircleIndicator</url>
+        <copyright>Ongakuer</copyright>
+        <license>Apache Software License 2.0</license>
+    </notice>
+    <notice>
+        <name>android-range-seek-bar</name>
+        <url>https://github.com/YahooArchive/android-range-seek-bar</url>
+        <copyright>YahooArchive</copyright>
+        <license>Apache Software License 2.0</license>
+    </notice>
+    <notice>
+        <name>CircleImageView</name>
+        <url>https://github.com/hdodenhof/CircleImageView</url>
+        <copyright>Copyright Henning Dodenhof</copyright>
+        <license>Apache Software License 2.0</license>
+    </notice>
+    <notice>
+        <name>CountryCodePickerProject</name>
+        <url>https://github.com/hbb20/CountryCodePickerProject</url>
+        <copyright>Copyright Harsh Bhakta</copyright>
+        <license>Apache Software License 2.0</license>
+    </notice>
+    <notice>
+        <name>LicensesDialog</name>
+        <url>https://github.com/PSDev/LicensesDialog</url>
+        <copyright>Copyright 2013 Philip Schiffer</copyright>
+        <license>Apache Software License 2.0</license>
+    </notice>
+</notices>
